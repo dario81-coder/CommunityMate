@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Plus, MessageCircle, User, Filter, X, Send, Clock, CheckCircle } from 'lucide-react';
+import { MapPin, Plus, MessageCircle, X, Send, Clock } from 'lucide-react';
 
 export default function CommunityAidApp() {
   const [posts, setPosts] = useState([]);
